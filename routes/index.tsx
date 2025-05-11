@@ -47,7 +47,7 @@ export default function Home({ data }: PageProps<Data>) {
         {searchResults &&
           searchResults.length > 0 &&
           searchResults.map((r) => (
-            <a href={`/files/${r.filename}`} class="w-full flex flex-col gap-2">
+            <a href={`/files/${r.filename}`} class="w-full flex flex-col gap-2" target="_blank">
               <section>
                 <h2 class="text-2xl font-bold text-blue-500">{r.filename}</h2>
                 <p class="text-gray-500">
