@@ -1,5 +1,5 @@
-import { Handlers, PageProps } from "$fresh/server.ts";
 import { toFixedS } from "../utils/numbersString.ts";
+import { Handlers, PageProps } from "$fresh/server.ts";
 import search, { SearchResult } from "../utils/search/search.ts";
 
 interface Data {
